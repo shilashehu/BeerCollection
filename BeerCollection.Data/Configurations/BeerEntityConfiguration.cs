@@ -12,10 +12,6 @@ namespace BeerCollection.Data.Configurations
             builder.Property(x => x.Name).IsRequired().HasMaxLength(15);
             builder.Property(x => x.BeerTypeId).IsRequired();
             builder.Property(x => x.AvgRating);
-            builder
-                .HasMany(x => x.BeerRatings)
-                .WithOne(x => x.Beer)
-                .HasForeignKey(x => x.BeerId);
         }
     }
 }

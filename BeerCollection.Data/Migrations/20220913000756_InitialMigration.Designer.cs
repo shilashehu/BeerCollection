@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BeerCollection.Data.Migrations
 {
     [DbContext(typeof(BeerCollectionContext))]
-    [Migration("20220912232311_InitialMigration")]
+    [Migration("20220913000756_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,8 +64,6 @@ namespace BeerCollection.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BeerId");
-
                     b.ToTable("BeerRating");
                 });
 
@@ -104,22 +102,6 @@ namespace BeerCollection.Data.Migrations
                             Description = "A newer style of beer.",
                             Name = "Lager"
                         });
-                });
-
-            modelBuilder.Entity("BeerCollection.Domain.Models.BeerRating", b =>
-                {
-                    b.HasOne("BeerCollection.Domain.Models.Beer", "Beer")
-                        .WithMany("BeerRatings")
-                        .HasForeignKey("BeerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Beer");
-                });
-
-            modelBuilder.Entity("BeerCollection.Domain.Models.Beer", b =>
-                {
-                    b.Navigation("BeerRatings");
                 });
 #pragma warning restore 612, 618
         }
