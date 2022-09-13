@@ -1,0 +1,12 @@
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\bin\Debug\net6.0\BeerCollection.Domain.deps.json
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\bin\Debug\net6.0\BeerCollection.Domain.dll
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\bin\Debug\net6.0\BeerCollection.Domain.pdb
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.csproj.AssemblyReference.cache
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.AssemblyInfoInputs.cache
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.AssemblyInfo.cs
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.dll
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\refint\BeerCollection.Domain.dll
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\BeerCollection.Domain.pdb
+C:\Users\Ritech\source\repos\BeerCollection\BeerCollection.Domain\obj\Debug\net6.0\ref\BeerCollection.Domain.dll
